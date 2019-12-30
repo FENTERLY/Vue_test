@@ -7,6 +7,7 @@ import CS from '@/components/CS'
 import pages from "@/components/pages";
 import page1 from "@/components/page1";
 import page2 from "@/components/page2";
+import bigpig from "@/components/BigPigs";
 
 Vue.use(Router)
 
@@ -47,5 +48,10 @@ export default new Router({
       name:'page2',
       component:page2
     },
+    {
+      path:"/bigpigs",
+      name:'bigpigs',
+      component:bigpig
+    }
   ]
 })
